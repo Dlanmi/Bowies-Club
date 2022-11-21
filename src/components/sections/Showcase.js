@@ -31,16 +31,16 @@ const Section = styled.section`
   overflow: hidden;
 
   & > *:first-child {
-    animation-duration: 20s;
+    animation-duration: 25s;
 
     @media (max-width: 30em) {
-      animation-duration: 15s;
+      animation-duration: 30s;
     }
   }
   & > *:last-child {
-    animation-duration: 15s;
+    animation-duration: 20s;
     @media (max-width: 30em) {
-      animation-duration: 10s;
+      animation-duration: 30s;
     }
   }
 `;
@@ -121,7 +121,7 @@ const Price = styled.div`
   }
 `;
 
-const NftItem = ({ img, number = 0, price = 0, passRef }) => {
+const NftItem = ({ title, img, number = 0, price = 0, passRef }) => {
   let play = (e) => {
     passRef.current.style.animationPlayState = "running";
   };
@@ -134,7 +134,7 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
       <img src={img} alt="Bowies Club" />
       <Details>
         <div>
-          <span>Bowies</span> <br />
+          <span>{title}</span> <br />
           <h1>#{number}</h1>
         </div>
         <div>
@@ -157,22 +157,100 @@ const Showcase = () => {
   return (
     <Section id="showcase">
       <Row direction="none" ref={Row1Ref}>
-        <NftItem img={img1} number={1} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img2} number={2} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img3} number={3} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img4} number={4} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img5} number={5} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img6} number={5} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img7} number={5} price={0.5} passRef={Row1Ref} />
+        <NftItem
+          img={img1}
+          title={"Bowie 1"}
+          number={1}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img2}
+          title={"Bowie 2"}
+          number={2}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img3}
+          title={"Bowie 3"}
+          number={3}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img4}
+          title={"Bowie 4"}
+          number={4}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img5}
+          title={"Bowie 5"}
+          number={5}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img6}
+          title={"Bowie 6"}
+          number={5}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img7}
+          title={"Bowie 7"}
+          number={5}
+          price={0.5}
+          passRef={Row1Ref}
+        />
       </Row>
       <Row direction="reverse" ref={Row2Ref}>
-        <NftItem img={img8} number={5} price={0.5} passRef={Row2Ref} />
-        <NftItem img={img9} number={6} price={0.5} passRef={Row2Ref} />
-        <NftItem img={img10} number={7} price={0.5} passRef={Row2Ref} />
+        <NftItem
+          img={img8}
+          title={"Bowie 8"}
+          number={5}
+          price={0.5}
+          passRef={Row2Ref}
+        />
+        <NftItem
+          img={img9}
+          title={"Bowie 9"}
+          number={6}
+          price={0.5}
+          passRef={Row2Ref}
+        />
+        <NftItem
+          img={img10}
+          title={"Bowie 10"}
+          number={7}
+          price={0.5}
+          passRef={Row2Ref}
+        />
         {/* <NftItem img={img11} number={8} price={0.5} passRef={Row2Ref} /> */}
-        <NftItem img={img12} number={9} price={0.5} passRef={Row2Ref} />
-        <NftItem img={img13} number={5} price={0.5} passRef={Row1Ref} />
-        <NftItem img={img14} number={5} price={0.5} passRef={Row1Ref} />
+        <NftItem
+          img={img12}
+          title={"Bowie 12"}
+          number={9}
+          price={0.5}
+          passRef={Row2Ref}
+        />
+        <NftItem
+          img={img13}
+          title={"Bowie 13"}
+          number={5}
+          price={0.5}
+          passRef={Row1Ref}
+        />
+        <NftItem
+          img={img14}
+          title={"Bowie 14"}
+          number={5}
+          price={0.5}
+          passRef={Row1Ref}
+        />
       </Row>
     </Section>
   );
