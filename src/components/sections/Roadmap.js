@@ -223,12 +223,12 @@ const Roadmap = () => {
           <RoadMapItem
             addToRef={addToRefs}
             title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Join our community and celebrate with us the incredible launch of Bowies Club 😎 (amazing prizes)."
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Rewarding our growing community, we will give gifts including ETH and NFT's and special roles within the community. 👏"
           />
           <RoadMapItem
             addToRef={addToRefs}

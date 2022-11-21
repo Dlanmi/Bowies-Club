@@ -162,19 +162,21 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem>
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
-          <menuItem>
+          <MenuItem>
             <div className="mobile">
               <Button
                 text="OpenSea"
                 link="https://opensea.io/collection/bowiesclub"
+                target="_blank"
               />
             </div>
-          </menuItem>
+          </MenuItem>
         </Menu>
         <div className="desktop">
           <Button
             text="OpenSea"
             link="https://opensea.io/collection/bowiesclub"
+            target="_blank"
           />
         </div>
       </NavBar>

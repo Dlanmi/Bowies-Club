@@ -106,17 +106,19 @@ const Faq = () => {
           </Accordion>
         </Box>
         <Box>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+          <Accordion title="WHAT IS A WALLET?">
+            A wallet is the digital storage where all your NFTs are saved for
+            you in one place to access them.
           </Accordion>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+          <Accordion title="WHAT CAN I DO WITH MY NFT AFTER PURCHASE?">
+            You can share it, gift it or place it for sale directly from the
+            wallet on to the markteplace. There you can see what your NFT is
+            worth at the moment.
           </Accordion>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+          <Accordion title="CAN I GET MORE DETAILED INFORMATION?">
+            YES! With the following link you can get a more detailed overview
+            and more answers to your questions. OR you can send us your question
+            on ASK US ANYTHING.
           </Accordion>
         </Box>
       </Container>
