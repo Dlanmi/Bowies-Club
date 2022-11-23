@@ -176,7 +176,7 @@ const Navigation = () => {
           <Button
             text="OpenSea"
             link="https://opensea.io/collection/bowiesclub"
-            target="_blank"
+            open="_blank"
           />
         </div>
       </NavBar>

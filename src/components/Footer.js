@@ -177,7 +177,7 @@ const Footer = () => {
         <span>
           Made with &#10084; by{" "}
           <a
-            href="https:danielojeda.me"
+            href="https://danielojeda.me"
             target="_blank"
             rel="noopener noreferrer"
           >

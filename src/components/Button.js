@@ -38,13 +38,13 @@ const Btn = styled.button`
   }
 `;
 
-const Button = ({ text, link }) => {
+const Button = ({ text, link, open }) => {
   return (
-    <Btn>
-      <a href={link} arial-label={text} target="_blank" rel="noreferrer">
-        {text}
+    <>
+      <a href={link} arial-label={text} target={open} rel="noreferrer">
+        <Btn>{text}</Btn>
       </a>
-    </Btn>
+    </>
   );
 };
 

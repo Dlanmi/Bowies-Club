@@ -147,7 +147,9 @@ const Banner = () => {
         Join the <br /> Bowies club
       </Title>
       <BtnContainer>
-        <JoinNow>Join Now</JoinNow>
+        <a href="https://opensea.io/collection/bowiesclub" target="_blank">
+          <JoinNow>OpenSea</JoinNow>
+        </a>
       </BtnContainer>
     </Section>
   );
