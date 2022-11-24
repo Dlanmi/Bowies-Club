@@ -227,23 +227,23 @@ const Roadmap = () => {
           />
           <RoadMapItem
             addToRef={addToRefs}
+            title="Pre-Sale"
+            subtext="Don't miss the presale! The first 10 accounts on the waiting list will receive a FREE Bowies Club (one winner only)."
+          />
+          <RoadMapItem
+            addToRef={addToRefs}
             title="Great Benefits"
             subtext="Rewarding our growing community, we will give gifts including ETH and NFT's and special roles within the community. 👏"
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="We will provide a login to view our first 10 NFT's. So don't miss it :)"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
-          />
-          <RoadMapItem
-            addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Fun and cute collection"
+            subtext="We will create a total of 50 Bowies for our entire community, varying the quality of each one of them. (15 of 50)"
           />
         </Items>
       </Container>

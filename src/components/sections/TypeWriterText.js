@@ -70,6 +70,16 @@ const ButtonContainer = styled.div`
 `;
 
 const TypeWriterText = () => {
+  const scrollTo = (id) => {
+    let element = document.getElementById(id);
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
+
   return (
     <>
       <Title>
@@ -95,8 +105,8 @@ const TypeWriterText = () => {
         />
       </Title>
       <SubTitle>Bored of Apes? Try Something New!</SubTitle>
-      <ButtonContainer>
-        <Button text="Explore" link="#about" />
+      <ButtonContainer onClick={() => scrollTo("about")}>
+        <Button text="Explore" />
       </ButtonContainer>
     </>
   );
