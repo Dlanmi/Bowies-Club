@@ -127,7 +127,10 @@ const ButtonContainer = styled.div`
   @media (max-width: 64em) {
     width: 100%;
 
-    button {
+    /* button {
+      margin: 0 auto;
+    } */
+    a {
       margin: 0 auto;
     }
   }
