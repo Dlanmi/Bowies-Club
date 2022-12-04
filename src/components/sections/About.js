@@ -160,8 +160,8 @@ const About = () => {
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <Button
-                text="JOIN OUR DISCORD"
-                link="https://discord.com/"
+                text="OpenSea"
+                link="https://opensea.io/collection/bowiesclub"
                 open="_blank"
               />
             </ThemeProvider>
